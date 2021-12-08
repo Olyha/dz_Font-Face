@@ -40,20 +40,18 @@ a {
 }
 .section_logo {
     max-width: 1445px;
-    height: 700px;
+    height: 500px;
     display: flex;
-    flex-direction: column;
     justify-content:center;
-    align-items:;
-    margin-left: 250px;   
+    align-items:center;    
 }
 .text_section_logo {
-    max-width: 945px;
-    height: 100px;
+    max-width: 955px;
+    height: 200px;
+    margin: auto;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: flex-end;
-    justify-content:space-between;
 }
 .name_logo {
     max-width: 155px;
@@ -76,16 +74,14 @@ p {
     font-size: 18px;
     line-height: 22px;
     max-width: 480px;
-    height: 10px;
+    height: 15px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center; 
     color: #070707;
 }
-.section_logo_transform {
-    margin-bottom: 20px;
-    margin-right: -350px;
+.logo_transform {
     transform:rotate(-90deg);
     list-style: none;
     display: flex;
@@ -97,9 +93,10 @@ p {
 .language {
     color: #828282;
 }
-.foto_logo {
-    margin-top: 25px;
+li {
+  margin-top: 52px;    
 }
+
 .section_about {
     max-width: 1445px;
     height: 510px;
